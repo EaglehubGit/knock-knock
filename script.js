@@ -7,42 +7,48 @@ const knockKnockJokes = [
     response: "Who's there?",
     punchline: "Hawaii.",
     punchlineResponse: "Hawaii who?",
-    final: "I'm good. Hawaii you?"
+    final: "I'm good. Hawaii you?",
+    ASCIIart: "** %-) **"
   },
   {
     setup: "Knock, knock.",
     response: "Who's there?",
     punchline: "Figs.",
     punchlineResponse: "Figs who?",
-    final: "Figs the doorbell, it's not working"
+    final: "Figs the doorbell, it's not working",
+    ASCIIart: "** %-) **"
   },
   {
       setup: "Knock, knock.",
       response: "Who's there?",
       punchline: "Tank.",
       punchlineResponse: "Tank who?",
-      final: "You're welcome"
+      final: "You're welcome",
+      ASCIIart: "** %-) **"
     },
     {
       setup: "Knock, knock.",
       response: "Who's there?",
       punchline: "Lettuce.",
       punchlineResponse: "Lettuce who?",
-      final: "Lettuce in, it's cold out here!"
+      final: "Lettuce in, it's cold out here!",
+      ASCIIart: "** %-) **"
     },
     {
       setup: "Knock, knock.",
       response: "Who's there?",
       punchline: "Boo.",
       punchlineResponse: "Boo who?",
-      final: "Don't cry, it's just a joke!"
+      final: "Don't cry, it's just a joke!",
+      ASCIIart: "** %-) **"
     },
     {
       setup: "Knock, knock.",
       response: "Who's there?",
       punchline: "Cow says.",
       punchlineResponse: "Cow says who?",
-      final: "No, silly! Cow says 'moo!'"
+      final: "No, silly! Cow says 'moo!'",
+      ASCIIart: "** %-) **"
     }
   ];
   
@@ -61,6 +67,9 @@ const knockKnockJokes = [
           console.log(joke.punchlineResponse); // "Lettuce who?"
           setTimeout(() => {
             console.log(joke.final); // "Lettuce in, it's cold out here!"
+            setTimeout(() => {
+              console.log(joke.ASCIIart); // "ASCIIart"
+            }, 1000);
           }, 1000);
         }, 1000);
       }, 1000);
