@@ -2,7 +2,14 @@
 
 // Step 1: Collection of knock-knock jokes in Array
 const knockKnockJokes = [
-    {
+  {
+    setup: "Knock, knock.",
+    response: "Who's there?",
+    punchline: "Figs.",
+    punchlineResponse: "Figs who?",
+    final: "Figs the doorbell, it's not working"
+  },
+  {
       setup: "Knock, knock.",
       response: "Who's there?",
       punchline: "Tank.",
