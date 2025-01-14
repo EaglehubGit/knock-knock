@@ -5,6 +5,13 @@ const knockKnockJokes = [
   {
     setup: "Knock, knock.",
     response: "Who's there?",
+    punchline: "Hawaii.",
+    punchlineResponse: "Hawaii who?",
+    final: "I'm good. Hawaii you?"
+  },
+  {
+    setup: "Knock, knock.",
+    response: "Who's there?",
     punchline: "Figs.",
     punchlineResponse: "Figs who?",
     final: "Figs the doorbell, it's not working"
